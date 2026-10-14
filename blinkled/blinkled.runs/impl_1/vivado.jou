@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Oct 14 17:42:04 2026
+# Process ID         : 3512
+# Current directory  : C:/Users/timbr/blinkled/blinkled.runs/impl_1
+# Command line       : vivado.exe -log blink_led_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source blink_led_top.tcl -notrace
+# Log file           : C:/Users/timbr/blinkled/blinkled.runs/impl_1/blink_led_top.vdi
+# Journal file       : C:/Users/timbr/blinkled/blinkled.runs/impl_1\vivado.jou
+# Running On         : Tim2
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Snapdragon(R) X 10-core X1P64100 @ 3.40 GHz
+# CPU Frequency      : 2976 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 10
+# Host memory        : 16756 MB
+# Swap memory        : 7357 MB
+# Total Virtual      : 24113 MB
+# Available Virtual  : 2925 MB
+#-----------------------------------------------------------
+source blink_led_top.tcl -notrace

@@ -1,0 +1,41 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 30-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Oct 14 17:12:39 2026
+# Process ID         : 15324
+# Current directory  : C:/Users/timbr/binarycounter/binarycounter.runs/synth_1
+# Command line       : vivado.exe -log bincntr.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bincntr.tcl
+# Log file           : C:/Users/timbr/binarycounter/binarycounter.runs/synth_1/bincntr.vds
+# Journal file       : C:/Users/timbr/binarycounter/binarycounter.runs/synth_1\vivado.jou
+# Running On         : Tim2
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Snapdragon(R) X 10-core X1P64100 @ 3.40 GHz
+# CPU Frequency      : 2976 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 10
+# Host memory        : 16756 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25345 MB
+# Available Virtual  : 509 MB
+#-----------------------------------------------------------
+source bincntr.tcl -notrace
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - C:/AMDDesignTools/2026.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu106\2.4\board.xml.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - C:/AMDDesignTools/2026.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - C:/AMDDesignTools/2026.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\3.0\board.xml.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - C:/AMDDesignTools/2026.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\3.0\board.xml.
+Resolution: Please contact your board vendor with this message.
+CRITICAL WARNING: [Board 49-59] Failed to parse board part file C:/AMDDesignTools/2026.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml
+CRITICAL WARNING: [Board 49-56] Problem parsing board file - C:/AMDDesignTools/2026.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\2.0\board.xml.
+Resolution: Please contact your board vendor with this message.
+The application has run out of memory
+    while executing
+"create_project -in_memory -part xc7a35ticsg324-1L"
+    (file "bincntr.tcl" line 66)
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 14 17:12:51 2026...
